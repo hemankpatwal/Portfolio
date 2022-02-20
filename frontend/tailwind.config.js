@@ -1,9 +1,17 @@
 module.exports = {
   content: [
-    "./src///*.{ts,tsx,js,jsx}"
+    "./src/**/**/*.{ts,tsx,js,jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Risque:["Risque", "cursive"],
+        Oxygen:["Oxygen", "sans-serif"],
+        Paprika:["Paprika", "cursive"],
+        Quattrocento:["Quattrocento", "serif"],      
+      
+      }
+    },
   },
   plugins: [],
 }
