@@ -38,7 +38,7 @@ const Landing = () => (
                                </div>
                           </div>
 
-                          <div className="pt-[20%]">
+                          <div className="pt-[23.1%]">
                                <img src="/images/arrow1.png" />
                           </div>
 
@@ -65,13 +65,41 @@ const Landing = () => (
                                  <img src='/images/img3.png' />
                             </div>
              </div>
-             
 
+
+
+             
 
          
 
 
         </div>
+
+
+        <div>
+
+          <div className="w-[10%] ml-[12%] pt-[10%] border rounded-full">
+                  <div>
+                       <span className="font-Montserrat font-medium font-2xl flex flex-col ">
+                          Website Design
+                       </span>
+                       <span>
+                            0 Projects
+
+                       </span>
+                  </div>
+          
+
+            </div>
+        </div>
+
+
+        <div className="flex-col">
+
+             <div className="font-Montserrat font-bold font-5xl">
+                  What Do I Help?
+             </div>
+        </div> 
     </div>
 
 )
