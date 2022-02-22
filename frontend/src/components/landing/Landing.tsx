@@ -1,24 +1,25 @@
 import React from 'react'
 
 const Landing = () => (
-    <div className="w-full h-full">
-           <div className="flex w-full "> 
+          <div className="w-full h-full">
+
+                                     <div className="flex w-full "> 
              
 
 
+                                                                 <div className="w-full ml-[12%] pt-[15%]">
+
+                                                                                 <div className="font-Paprika text-8xl  ">
+                                                                                          Hi I'm Hemank Patwal
+                                                                                 </div>  
 
 
-                 <div className="w-full ml-[12%] pt-[15%]">
+                                                                                <div className="pt-[6%] h-[6.5rem]"> 
 
-                           <div className="font-Paprika text-8xl  ">
-                                  Hi I'm Hemank Patwal
-                           </div>
+                                                                                          <div className="bg-slate-200 rounded-xl  w-[86%]"> 
 
-
-                           <div className="pt-[6%] h-[6.5rem]"> 
-                           <div className="bg-slate-200 rounded-xl  w-[86%]"> 
-                                  <div className=" font- Quattrocento text-2xl flex justify-center items-center  ">
-                                         --  Hi! I’m a Web Developer. I develop creative, responsive and user friendly websites for clients all over the globe.
+                                                                                                              <div className=" font- Quattrocento text-2xl flex justify-center items-center  ">
+                                                                                                                        --  Hi! I’m a Web Developer. I develop creative, responsive and user friendly websites for clients all over the globe.
                                    </div>
                           </div>       
                           </div>
@@ -37,12 +38,14 @@ const Landing = () => (
                                    Portfolio
                                </div>
                           </div>
+                           
+                         
 
-                          <div className="pt-[23.1%]">
+                          <div className="pt-[22%]">
                                <img src="/images/arrow1.png" />
                           </div>
-
-
+                          
+                         
                  </div>
 
 
@@ -64,6 +67,27 @@ const Landing = () => (
                             <div className="z-10 absolute mr-[15%] pt-[10%] ">
                                  <img src='/images/img3.png' />
                             </div>
+
+                            <div className="space-y-5 mt-[40%] mr-[20%]">
+                               <div className=" text-left font-Salsa font-regular text-2xl">
+                                    Check Out
+                               </div>
+
+                               <div className="flex space-x-9">
+                                     <div>
+                                           <img src="/images/icon5.png" /> 
+                                     </div>
+                                           
+                                     <div>
+                                           <img src="/images/icon6.png" />
+                                     </div>
+                                         
+                                     <div>
+                                           <img src="/images/icon7.png" />
+                                     </div>
+                              
+                               </div>
+                          </div>
              </div>
 
 
@@ -75,7 +99,7 @@ const Landing = () => (
 
         </div>
 
-        <div className="flex w-full pt-[10%] ">
+        <div className="flex w-full pt-[10%] pb-[5%] ">
 
 
                

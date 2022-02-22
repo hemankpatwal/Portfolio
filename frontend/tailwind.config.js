@@ -9,8 +9,8 @@ module.exports = {
         Oxygen:["Oxygen", "sans-serif"],
         Paprika:["Paprika", "cursive"],
         Quattrocento:["Quattrocento", "serif"],      
-        Montserrat:["Montserrat Subrayada", "sans-serif"]
-        
+        Montserrat:["Montserrat Subrayada", "sans-serif"],
+        Salsa:["Salsa", "cursive"],
       }
     },
   },
