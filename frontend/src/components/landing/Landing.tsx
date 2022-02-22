@@ -100,17 +100,17 @@ const Landing = () => (
 
                              <div className="pt-[10%]">
           
-                             <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[10%]">
+                             <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[2%]">
 
                                       <div>
-                                           <img src="/images/icon2.png" />
+                                           <img src="/images/icon3.png" />
                                       </div>
 
                                       <div className="">
-                                              <div className="font-Montserrat   font-semibold text-3xl  ">
-                                                   Website Design
+                                              <div className="font-Montserrat font-semibold text-3xl  ">
+                                                   Mobile App Design
                                              </div>
-                                             <div>
+                                             <div className="text-right">
                                                  0 Projects
 
                                               </div>
@@ -121,20 +121,17 @@ const Landing = () => (
 
                              <div className="pt-[10%]">
           
-                             <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[10%]">
+                             <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[30%]">
 
-                                      <div>
-                                           <img src="/images/icon2.png" />
+                                      <div className="">
+                                           <img src="/images/icon4.png" />
                                       </div>
 
                                       <div className="">
-                                              <div className="font-Montserrat   font-semibold text-3xl  ">
-                                                   Website Design
+                                              <div className="font-Montserrat font-semibold text-3xl  ">
+                                                   Feedbacks
                                              </div>
-                                             <div>
-                                                 0 Projects
-
-                                              </div>
+                                             
                                     </div>
                              </div>
 
@@ -149,6 +146,45 @@ const Landing = () => (
              <div className="font-Montserrat font-bold text-7xl">
                   What Do I Help?
              </div>
+
+             <div className="font-Montserrat font-medium text-3xl pt-[10%] w-[92%]">
+                             <div> 
+                                  I help you with finding a solution and solve your problems. I use Next.js, Tailwind CSS and Typescript
+                                   to make WebApp.
+                            </div>     
+
+                            <div className="pt-[5%]">
+                                I give my best to fulfill your requirements and make website more user-friendly.
+                            </div>
+
+             </div>
+
+             <div className="flex space-x-[30%] justify-center pt-[4.5%]">
+                           <div className="flex flex-col">
+                                 <div className="text-7xl text-center" >
+                                      0+
+                                 </div>
+
+                                 <div className="font-Montserrat">
+                                      Projects Completed
+                                 </div>
+
+                           </div>
+
+                           <div className="flex flex-col">
+                                 <div className="text-7xl text-center" >
+                                      0+
+                                 </div>
+
+                                 <div className="font-Montserrat">
+                                      Happy Clients
+                                 </div>
+
+                           </div>
+
+
+             </div>
+
         </div> 
 
 
