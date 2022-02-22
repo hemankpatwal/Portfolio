@@ -10,6 +10,7 @@ module.exports = {
         Paprika:["Paprika", "cursive"],
         Quattrocento:["Quattrocento", "serif"],      
         Montserrat:["Montserrat Subrayada", "sans-serif"]
+        
       }
     },
   },

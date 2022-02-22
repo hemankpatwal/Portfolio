@@ -75,31 +75,84 @@ const Landing = () => (
 
         </div>
 
+        <div className="flex w-full pt-[10%] ">
 
-        <div>
 
-          <div className="w-[10%] ml-[12%] pt-[10%] border rounded-full">
-                  <div>
-                       <span className="font-Montserrat font-medium font-2xl flex flex-col ">
-                          Website Design
-                       </span>
-                       <span>
-                            0 Projects
+               
 
-                       </span>
-                  </div>
+                      <div className=" flex flex-col w-full h-full ml-[12%] ">
+                              <div className="flex rounded-2xl w-[50%] h-[7rem] shadow-xl justify-center items-center space-x-[10%]">
+ 
+                                      <div>
+                                           <img src="/images/icon2.png" />
+                                      </div>
+
+                                      <div className="">
+                                              <div className="font-Montserrat   font-semibold text-3xl  ">
+                                                   Website Design
+                                             </div>
+                                             <div className="  text-right">
+                                                 0 Projects
+
+                                              </div>
+                                    </div>
+                             </div>
+
+                             <div className="pt-[10%]">
           
+                             <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[10%]">
 
-            </div>
-        </div>
+                                      <div>
+                                           <img src="/images/icon2.png" />
+                                      </div>
+
+                                      <div className="">
+                                              <div className="font-Montserrat   font-semibold text-3xl  ">
+                                                   Website Design
+                                             </div>
+                                             <div>
+                                                 0 Projects
+
+                                              </div>
+                                    </div>
+                             </div>
+
+                             </div>
+
+                             <div className="pt-[10%]">
+          
+                             <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[10%]">
+
+                                      <div>
+                                           <img src="/images/icon2.png" />
+                                      </div>
+
+                                      <div className="">
+                                              <div className="font-Montserrat   font-semibold text-3xl  ">
+                                                   Website Design
+                                             </div>
+                                             <div>
+                                                 0 Projects
+
+                                              </div>
+                                    </div>
+                             </div>
+
+                             </div>
+          
+            
+                     </div>
 
 
-        <div className="flex-col">
+        <div className="flex-col  w-full">
 
-             <div className="font-Montserrat font-bold font-5xl">
+             <div className="font-Montserrat font-bold text-7xl">
                   What Do I Help?
              </div>
         </div> 
+
+
+        </div>
     </div>
 
 )
