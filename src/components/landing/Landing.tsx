@@ -41,7 +41,7 @@ const Landing = () => (
                     <div className="z-10 hidden md:block absolute mr-[15%] pt-[10%] ">
                          <img src='/images/img3.png' />
                     </div>
-                    <div className="lg:space-y-5 lg:mt-[40%] lg:mr-[20%]  mt-[10%] ml-[10%] space-y-2">
+                    <div className="lg:space-y-5 lg:mt-[40%] lg:mr-[20%]  mt-[10%] ml-[10%]  space-y-2">
                          <div className=" text-left font-Salsa font-regular text-2xl">
                               Check Out
                          </div>
