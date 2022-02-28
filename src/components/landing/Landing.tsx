@@ -61,12 +61,12 @@ const Landing = () => (
           </div>
           <div className="flex flex-col-reverse lg:flex-row w-full pt-[10%] pb-[5%] ">
                <div className=" flex flex-col w-full h-full ml-[12%] ">
-                    <div className="flex rounded-2xl w-[50%] h-[7rem] shadow-xl justify-center items-center space-x-[10%]">
+                    <div className="flex rounded-2xl mt-[10%] lg:w-[50%] lg:h-[7rem] w-[70%] shadow-xl justify-center items-center space-x-[10%]">
                          <div>
                               <img src="/images/icon2.png" />
                          </div>
                          <div className="">
-                              <div className="font-Montserrat   font-semibold text-3xl  ">
+                              <div className="font-Montserrat  font-semibold lg:text-3xl text-xl ">
                                    Website Design
                               </div>
                               <div className="  text-right">
@@ -75,12 +75,12 @@ const Landing = () => (
                          </div>
                     </div>
                     <div className="pt-[10%]">
-                         <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[2%]">
+                         <div className="flex  rounded-2xl lg:w-[50%]  lg:h-[7rem] w-[70%] shadow-xl justify-center items-center space-x-[2%]">
                               <div>
                                    <img src="/images/icon3.png" />
                               </div>
                               <div className="">
-                                   <div className="font-Montserrat font-semibold text-3xl  ">
+                                   <div className="font-Montserrat font-semibold lg:text-3xl text-xl ">
                                         Mobile App Design
                                    </div>
                                    <div className="text-right">
@@ -90,12 +90,12 @@ const Landing = () => (
                         </div>
                     </div>
                     <div className="pt-[10%]">
-                         <div className="flex  rounded-2xl w-[50%]  h-[7rem] shadow-xl justify-center items-center space-x-[30%]">
+                         <div className="flex  rounded-2xl lg:w-[50%]  lg:h-[7rem] w-[70%] shadow-xl justify-center items-center space-x-[30%]">
                               <div className="">
                                    <img src="/images/icon4.png" />
                               </div>
                               <div className="">
-                                   <div className="font-Montserrat font-semibold text-3xl  ">
+                                   <div className="font-Montserrat font-semibold lg:text-3xl font-xl ">
                                         Feedbacks
                                    </div>               
                               </div>
@@ -103,10 +103,10 @@ const Landing = () => (
                     </div>            
                </div>
                <div className="flex-col  w-full">
-                    <div className="font-Montserrat font-bold text-7xl">
+                    <div className="font-Montserrat font-bold text-4xl lg:text-7xl ml-[10%]" >
                          What Do I Help?
                     </div>
-               <div className="font-Montserrat font-medium text-3xl pt-[10%] w-[92%]">
+               <div className="font-Montserrat font-medium lg:text-3xl text-xl ml-[10%] pt-[10%] w-[80%] lg:w-[92%]">
                     <div> 
                          I help you with finding a solution and solve your problems. I use Next.js, Tailwind CSS and Typescript to make WebApp.
                     </div>     
@@ -114,9 +114,9 @@ const Landing = () => (
                          I give my best to fulfill your requirements and make website more user-friendly.
                     </div>
                </div>
-               <div className="flex space-x-[30%] justify-center pt-[4.5%]">
-                    <div className="flex flex-col">
-                         <div className="text-7xl text-center" >                                       
+               <div className="flex lg:space-x-[30%] space-x-[20%] lg:justify-center pt-[4.5%]">
+                    <div className="flex flex-col ml-[10%]">
+                         <div className="lg:text-7xl text-5xl text-center" >                                       
                                0+
                          </div>
                          <div className="font-Montserrat">
@@ -124,7 +124,7 @@ const Landing = () => (
                          </div>
                     </div>
                     <div className="flex flex-col">
-                         <div className="text-7xl text-center" >
+                         <div className="lg:text-7xl text-5xl text-center" >
                                0+
                          </div>
                          <div className="font-Montserrat">
