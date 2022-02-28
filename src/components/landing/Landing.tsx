@@ -4,7 +4,7 @@ const Landing = () => (
      <div className="w-full h-full">
           <div className="md:flex w-full ">    
                <div className="w-full lg:ml-[12%] lg:pt-[15%] pt-[30%] ml-[9%]">
-                     <div className="font-Paprika lg:text-8xl text-5xl w-[90%] ">
+                     <div className="font-Paprika lg:text-8xl md:text-5xl text-5xl w-[90%] ">
                          Hi I'm Hemank Patwal
                      </div>  
                      <div className="pt-[6%] h-[6.5rem]"> 
@@ -32,14 +32,18 @@ const Landing = () => (
                     </div>                                                  
                </div>
                <div className=" w-full flex flex-col place-items-end">
-                    <div className="hidden md:block ml-[0%]">
+                    <div className="hidden  md:block ml-[0%]">
                          <img src="/images/img1.png" />
                     </div>
                     <div className="absolute hidden md:block pt-[10%]">
-                         <img src="/images/img2.png" />
+                         <div className='md:w-[70%] md:ml-[40%]'>
+                              <img src="/images/img2.png" />
+                         </div>
                     </div>
                     <div className="z-10 hidden md:block absolute mr-[15%] pt-[10%] ">
-                         <img src='/images/img3.png' />
+                         <div className="md:w-[90%] md:mt-[30%] md:ml-[20%]">
+                              <img src='/images/img3.png' />
+                         </div>     
                     </div>
                     <div className="lg:space-y-5 lg:mt-[40%] lg:mr-[20%]  mt-[10%] ml-[10%]  space-y-2">
                          <div className=" text-left font-Salsa font-regular text-2xl">
