@@ -3,7 +3,7 @@ import React from 'react'
 const Landing = () => (
      <div className="w-full h-full">
           <div className="md:flex w-full ">    
-               <div className="w-full lg:ml-[12%] lg:pt-[15%] md:pt-[30%] pt-[30%] ml-[9%]">
+               <div className="w-full lg:ml-[5%] lg:pt-[12%] md:pt-[30%] pt-[30%] ml-[9%]">
                      <div className="font-Paprika lg:text-8xl md:text-4xl text-5xl w-[90%] ">
                          Hi I'm Hemank Patwal
                      </div>  
@@ -27,7 +27,7 @@ const Landing = () => (
                               Portfolio
                          </div>
                     </div>       
-                     <div className="pt-[22%] md:pt-[19%] hidden md:block">
+                     <div className="pt-[22%] lg:mt-[3%] md:pt-[19%] hidden md:block">
                           <img src="/images/arrow1.png" />
                     </div>                                                  
                </div>
@@ -35,17 +35,17 @@ const Landing = () => (
                     <div className="hidden  md:block ">
                          <img src="/images/img1.png" />
                     </div>
-                    <div className="absolute lg:w-[70%] lg:-[60%] hidden md:block md:pt-[25%] pt-[10%]">
+                    <div className="absolute lg:w-[90%] lg:pt-[10%] lg:pl-[62%] hidden md:block md:pt-[25%] pt-[10%]">
                          <div className='md:w-[70%] md:ml-[40%]'>
                               <img src="/images/img2.png" />
                          </div>
                     </div>
-                    <div className="z-10 hidden md:block absolute lg:pt-[8%] lg:mr-[18%] mr-[15%] pt-[10%] ">
+                    <div className="z-10 hidden md:block absolute lg:mr-[13%] mr-[15%] pt-[10%] lg:pt-[0%] ">
                          <div className="md:w-[90%] md:mt-[60%]">
                               <img src='/images/img3.png' />
                          </div>     
                     </div>
-                    <div className="lg:space-y-5 lg:mt-[40%] lg:mr-[20%] md:mt-[99%]  mt-[10%] ml-[10%]  space-y-2">
+                    <div className="lg:space-y-5 lg:mt-[33%] lg:mr-[20%] md:mt-[99%]  mt-[10%] ml-[10%]  space-y-2">
                          <div className=" text-left font-Salsa font-regular text-2xl">
                               Check Out
                          </div>
@@ -64,7 +64,7 @@ const Landing = () => (
                </div>
           </div>
           <div className="flex flex-col-reverse lg:flex-row w-full pt-[10%] pb-[5%] ">
-               <div className=" flex flex-col w-full h-full lg:ml-[12%] ml-[12%] md:ml-[25%] ">
+               <div className=" flex flex-col w-full h-full lg:mb-[8%] lg:ml-[5%] ml-[12%] md:ml-[25%] ">
                     <div className="flex rounded-2xl mt-[10%] lg:w-[50%] md:w-[40%] lg:h-[7rem] w-[70%] shadow-xl justify-center items-center space-x-[10%]">
                          <div>
                               <img src="/images/icon2.png" />
@@ -106,7 +106,7 @@ const Landing = () => (
                          </div>
                     </div>            
                </div>
-               <div className="flex-col  w-full lg:mr-[10%]">
+               <div className="flex-col lg:mt-[5%] w-full lg:mr-[10%]">
                     <div className="font-Montserrat font-bold text-4xl md:text-5xl lg:text-7xl ml-[10%]" >
                          What Do I Help?
                     </div>
