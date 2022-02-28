@@ -32,16 +32,16 @@ const Landing = () => (
                     </div>                                                  
                </div>
                <div className=" w-full flex flex-col place-items-end">
-                    <div className="hidden  md:block ml-[0%]">
+                    <div className="hidden  md:block ">
                          <img src="/images/img1.png" />
                     </div>
-                    <div className="absolute hidden md:block pt-[10%]">
+                    <div className="absolute lg:w-[70%] lg:-[60%] hidden md:block md:pt-[25%] pt-[10%]">
                          <div className='md:w-[70%] md:ml-[40%]'>
                               <img src="/images/img2.png" />
                          </div>
                     </div>
-                    <div className="z-10 hidden md:block absolute mr-[15%] pt-[10%] ">
-                         <div className="md:w-[90%] md:mt-[30%] md:ml-[20%]">
+                    <div className="z-10 hidden md:block absolute lg:pt-[8%] lg:mr-[18%] mr-[15%] pt-[10%] ">
+                         <div className="md:w-[90%] md:mt-[60%]">
                               <img src='/images/img3.png' />
                          </div>     
                     </div>
@@ -64,7 +64,7 @@ const Landing = () => (
                </div>
           </div>
           <div className="flex flex-col-reverse lg:flex-row w-full pt-[10%] pb-[5%] ">
-               <div className=" flex flex-col w-full h-full ml-[12%] md:ml-[25%] ">
+               <div className=" flex flex-col w-full h-full lg:ml-[12%] ml-[12%] md:ml-[25%] ">
                     <div className="flex rounded-2xl mt-[10%] lg:w-[50%] md:w-[40%] lg:h-[7rem] w-[70%] shadow-xl justify-center items-center space-x-[10%]">
                          <div>
                               <img src="/images/icon2.png" />
@@ -106,7 +106,7 @@ const Landing = () => (
                          </div>
                     </div>            
                </div>
-               <div className="flex-col  w-full">
+               <div className="flex-col  w-full lg:mr-[10%]">
                     <div className="font-Montserrat font-bold text-4xl md:text-5xl lg:text-7xl ml-[10%]" >
                          What Do I Help?
                     </div>
