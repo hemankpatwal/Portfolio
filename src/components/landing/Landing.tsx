@@ -1,3 +1,4 @@
+import { resolveHref } from 'next/dist/shared/lib/router/router'
 import React from 'react'
 
 const Landing = () => (
@@ -50,15 +51,17 @@ const Landing = () => (
                               Check Out
                          </div>
                          <div className="flex space-x-9">
-                              <div>
-                                   <img src="/images/icon5.png" /> 
-                              </div>             
-                              <div>
+                              <button >
+                                   <a href='https://www.instagram.com/hemank_15/'>
+                                        <img src="/images/icon5.png" /> 
+                                   </a>
+                              </button>             
+                              <button>
                                    <img src="/images/icon6.png" />
-                              </div>                                         
-                              <div>
+                              </button>                                         
+                              <button>
                                    <img src="/images/icon7.png" />
-                              </div>                              
+                              </button>                              
                          </div>
                     </div>
                </div>

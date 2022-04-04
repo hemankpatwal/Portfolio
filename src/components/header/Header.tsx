@@ -7,15 +7,15 @@ const Header = () => (
                Hemank
             </div>
            <div className="flex lg:space-x-10 md:space-x-8 lg:text-base text-sm space-x-2  font-Oxygen pt-3 z-10" >
-                <div>
+                <button>
                     About
-                </div>
-                <div>
+                </button>
+                <button>
                     Services
-                </div>
-                <div>
+                </button>
+                <button>
                     Projects
-                </div>
+                </button>
            </div>
         </div> 
     </div>
