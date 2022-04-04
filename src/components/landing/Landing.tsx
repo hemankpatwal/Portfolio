@@ -1,5 +1,6 @@
 import { resolveHref } from 'next/dist/shared/lib/router/router'
 import React from 'react'
+import { motion } from "framer-motion"
 
 const Landing = () => (
      <div className="w-full h-full">
@@ -57,10 +58,14 @@ const Landing = () => (
                                    </a>
                               </button>             
                               <button>
-                                   <img src="/images/icon6.png" />
+                                   <a href='https://github.com/hemankpatwal' >
+                                        <img src="/images/icon6.png" />
+                                   </a>
                               </button>                                         
                               <button>
-                                   <img src="/images/icon7.png" />
+                                   <a href='https://www.linkedin.com/in/hemank-patwal-87488a22b' >
+                                        <img src="/images/icon7.png" />
+                                   </a>
                               </button>                              
                          </div>
                     </div>
@@ -68,7 +73,12 @@ const Landing = () => (
           </div>
           <div className="flex flex-col-reverse lg:flex-row w-full pt-[10%] pb-[5%] ">
                <div className=" flex flex-col w-full h-full lg:mb-[8%] lg:ml-[5%] ml-[12%] md:ml-[25%] ">
+               <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
                     <div className="flex rounded-2xl mt-[10%] lg:w-[50%] md:w-[40%] lg:h-[7rem] w-[70%] shadow-xl justify-center items-center space-x-[10%]">
+                    
                          <div>
                               <img src="/images/icon2.png" />
                          </div>
@@ -80,9 +90,16 @@ const Landing = () => (
                                    0 Projects
                               </div>
                          </div>
+                    
                     </div>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
                     <div className="pt-[10%]">
                          <div className="flex  rounded-2xl lg:w-[50%] md:w-[40%] lg:h-[7rem] w-[70%] shadow-xl justify-center items-center space-x-[2%]">
+                        
                               <div>
                                    <img src="/images/icon3.png" />
                               </div>
@@ -94,10 +111,17 @@ const Landing = () => (
                                         0 Projects
                                    </div>   
                               </div>
+                         
                         </div>
                     </div>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        onHoverStart={e => {}}
+                        onHoverEnd={e => {}}>
                     <div className="pt-[10%]">
                          <div className="flex  rounded-2xl lg:w-[50%]  lg:h-[7rem] md:w-[40%] w-[70%] shadow-xl justify-center items-center space-x-[30%]">
+                         
                               <div className="">
                                    <img src="/images/icon4.png" />
                               </div>
@@ -106,8 +130,10 @@ const Landing = () => (
                                         Feedbacks
                                    </div>               
                               </div>
+                         
                          </div>
-                    </div>            
+                    </div>   
+                    </motion.div>         
                </div>
                <div className="flex-col lg:mt-[5%] w-full lg:mr-[10%]">
                     <div className="font-Montserrat font-bold text-4xl md:text-5xl lg:text-7xl ml-[10%]" >
