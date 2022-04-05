@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Header = () => (
     <div className="w-full">
@@ -7,9 +8,11 @@ const Header = () => (
                Hemank
             </div>
            <div className="flex lg:space-x-10 md:space-x-8 lg:text-base text-sm space-x-2  font-Oxygen pt-3 z-10" >
-                <button>
-                    About
-                </button>
+                <link href='/About'>
+                    <button>
+                         About
+                    </button>
+                </link>    
                 <button>
                     Services
                 </button>

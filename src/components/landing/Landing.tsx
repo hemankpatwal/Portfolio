@@ -1,6 +1,7 @@
 import { resolveHref } from 'next/dist/shared/lib/router/router'
 import React from 'react'
 import { motion } from "framer-motion"
+import Link from 'next/link'
 
 const Landing = () => (
      <div className="w-full h-full">
