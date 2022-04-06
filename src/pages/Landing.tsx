@@ -19,9 +19,11 @@ const Landing = () => (
                     </div>
                     <div className="lg:flex lg:pt-[10%] md:pt-[20%] pt-[20%] font-Montserrat text-2xl font-semibold">
                          <div className="bg-pink-200 border rounded-full lg:w-[25%] w-[50%] flex justify-center items-center h-[3.5rem]">
-                              <span>
+                              <Link href='/Talk'>
+                              <button>
                                     Let's Talk
-                              </span>   
+                              </button>
+                              </Link>   
                               <span className="ml-[10%]">
                                     <img src="/images/icon1.png" /> 
                               </span>
