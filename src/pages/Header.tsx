@@ -8,11 +8,11 @@ const Header = () => (
                Hemank
             </div>
            <div className="flex lg:space-x-10 md:space-x-8 lg:text-base text-sm space-x-2  font-Oxygen pt-3 z-10" >
-                <link href='/About'>
+                <Link href='/About'>
                     <button>
                          About
                     </button>
-                </link>    
+                </Link>    
                 <button>
                     Services
                 </button>
