@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../pages/Header' 
 import Landing from '../pages/Landing'
 import About from '../pages/About'
+import Talk from '../pages/Talk'
 
 const Home: NextPage = () => {
   return (
